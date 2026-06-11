@@ -1,4 +1,3 @@
-```sql
 CREATE TABLE `users` (
     `user_id` BIGINT NOT NULL AUTO_INCREMENT,
     `email` VARCHAR(100) NOT NULL,
@@ -107,4 +106,3 @@ CREATE TABLE `post_likes` (
         REFERENCES `posts` (`post_id`)
 ) ENGINE=InnoDB
   DEFAULT CHARSET=utf8mb4;
-```
